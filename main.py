@@ -69,7 +69,7 @@ def execute_query(query):
 def display_query_results(query_title, query_result, suffix=" views"):
     print (query_title)
     for result in query_result:
-        print("\t-> " + str(result[0]) + " - " + str(result[1]) + postfix)
+        print("\t-> " + str(result[0]) + " - " + str(result[1]) + suffix)
     print ('')
 
 
