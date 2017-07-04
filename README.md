@@ -40,8 +40,8 @@ The database includes three tables:
 
 Repository contains two python files
 ```
-- main.py       -> This file contains main logic
-- logquery.py   -> This file contains a Helper Class to store query and its title
+- main.py       -> Contains main logic and queries
+- logquery.py   -> Helper Class to store query and its title
 ```
 
 To execute the program, run `python3 main.py` from the command line.
